@@ -1,4 +1,4 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -7,3 +7,74 @@
 }
 
 /* Write CSS code below */
+
+.main-content {
+    min-height: 1000px;
+    width: 90%;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: 300px 700px;
+}
+
+.left-section {
+    padding: 1rem;
+    grid-column: span 1;
+    background-color: black;
+    color: white;
+}
+
+.right-setion {
+    grid-column: span 1 / span 2;
+    background-color: white;
+}
+
+.profile-details img {
+    display: block;
+    margin: auto;
+    border: 5px white solid;
+    border-radius: 30%;
+    width: 60%;
+}
+
+.profile-details h1 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    word-spacing: 0.02px;
+    padding: 0.8rem;
+}
+
+.profile-details p {
+    font-size: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 0.5rem;
+}
+
+.profile-details section {
+    font-size: 0.75rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+.skills {
+    font-size: 0.75rem;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.skill-name {
+    font-size: 0.65rem;
+    text-align: left;
+    padding-bottom: 0.5rem;
+}
+
+.progress-bar{
+    border: 1px white solid;
+    height: 4px;
+}
